@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <table border="2" width ='100%'>
+        <tr>
+            <td colspan="3" class="menu">
+                <a href="index.html">Trang chủ</a> |
+                <a href="product.html">Sản phẩm</a> |
+                <a href="register.html">Đăng ký</a> |
+                <a href="login.html">Đăng nhập</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="register">
+            <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method="post">
+                <table>
+                    <tr>
+                        <td><label for="username">Tên đăng nhập:</label></td>
+                        <td><input type="text" id="username" name="username" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Mật khẩu:</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Giới tính:</label></td>
+                        <td>
+                            <select id="gender" name="gender">
+                                <option value="male">Nam</option>
+                                <option value="female">Nữ</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="interests">Sở thích:</label></td>
+                        <td>
+                            <input type="checkbox" id="sports" name="interests" value="sports"> Thể thao
+                            <input type="checkbox" id="travel" name="interests" value="travel"> Du lịch
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="avatar">Ảnh đại diện:</label></td>
+                        <td><input type="file" id="avatar" name="avatar"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Ngày sinh:</label></td>
+                        <td><input type="date" id="dob" name="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="class">Lớp:</label></td>
+                        <td>
+                            <select id="class" name="class">
+                                <option value="TH_01">TH_01</option>
+                                <option value="TH_02">TH_02</option>
+                                <option value="TH_03">TH_03</option>
+                                <option value="TH_04">TH_04</option>
+                                <option value="TH_05">TH_05</option>
+                                <option value="TH_06">TH_06</option>
+                                <option value="TH_07">TH_07</option>
+                                <option value="TH_08">TH_08</option>
+                                <option value="TH_09">TH_09</option>
+                                <option value="TH_10">TH_10</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="additional_info">Thông tin thêm:</label></td>
+                        <td><textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button type="submit">Gửi</button>
+                            <button type="reset">Xóa</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer">
+                <table width="100%">
+                    <tr>
+                        <td>Thông tin liên hệ</td>
+                        <td>Hướng dẫn mua hàng</td>
+                        <td>Chính sách bảo mật</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1" class="icons">
+                            <a href="#"><img src="images/phone-icon.png" width="50"></a>
+                            <a href="#"><img src="images/zalo-icon.png" width="50"></a>
+                            <a href="#"><img src="images/messenger-icon.png" width="50"></a>
+                        </td>
+                        <td>Đăng ký, đăng nhập</td>
+                        <td>Chính sách bảo mật</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+</body>
+</html>
